@@ -1,6 +1,6 @@
 .idea/
 
-vendor/
+/vendor/
 
 essaie.php
 config.json
