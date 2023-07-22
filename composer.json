@@ -7,14 +7,14 @@
         }
     ],
     "require": {
-        "altorouter/altorouter": "^2.0",
-        "phpmailer/phpmailer": "^6.2",
+        "altorouter/altorouter": "2.0",
+        "phpmailer/phpmailer": "6.2",
       "ext-json": "*",
       "ext-gd": "*"
     },
     "require-dev": {
-        "filp/whoops": "^2.7",
-        "symfony/var-dumper": "^5.1"
+        "filp/whoops": "2.7",
+        "symfony/var-dumper": "5.1"
     },
     "autoload": {
         "psr-4": {
