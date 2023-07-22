@@ -1,0 +1,25 @@
+{
+    "name": "lcb-bank/nikodev",
+    "authors": [
+        {
+            "name": "Nikhe Niama",
+            "email": "nikhe.niama99@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "phpmailer/phpmailer": "^6.2",
+      "ext-json": "*",
+      "ext-gd": "*"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.7",
+        "symfony/var-dumper": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Web\\App\\": "src/",
+            "App\\": "src/Modules/"
+        }
+    }
+}

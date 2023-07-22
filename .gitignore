@@ -1,0 +1,7 @@
+.idea/
+
+vendor/
+
+essaie.php
+config.json
+composer.lock

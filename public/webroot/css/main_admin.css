@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+p {
+  color: #212529;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: 400;
+}
+
+a,
+a:hover,
+a:focus {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  text-decoration: none;
+  outline: 0 solid transparent;
+  color: #000000;
+}
+
+ul,
+ol {
+  margin: 0;
+  color: #212529;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+input[type=checkbox] {
+  border-color: red;
+}
+
+section {
+  position: relative;
+}
+
+mark {
+  background: #82c343;
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* :: 3.1.0 Spacing */
+.mt-15 {
+  margin-top: 15px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-50 {
+  margin-top: 50px !important;
+}
+
+.mt-70 {
+  margin-top: 70px !important;
+}
+
+.mt-100 {
+  margin-top: 100px !important;
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-70 {
+  margin-bottom: 70px !important;
+}
+
+.mb-100 {
+  margin-bottom: 100px !important;
+}
+
+.ml-15 {
+  margin-left: 15px !important;
+}
+
+.ml-30 {
+  margin-left: 30px !important;
+}
+
+.ml-50 {
+  margin-left: 50px !important;
+}
+
+.mr-15 {
+  margin-right: 15px !important;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+.mr-50 {
+  margin-right: 50px !important;
+}
+
+/* :: 3.2.0 Height */
+.height-400 {
+  height: 400px !important;
+}
+
+.height-500 {
+  height: 500px !important;
+}
+
+.height-600 {
+  height: 600px !important;
+}
+
+.height-700 {
+  height: 700px !important;
+}
+
+.height-800 {
+  height: 800px !important;
+}
+
+/* :: 3.3.0 Section Padding */
+.section-padding-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-padding-0-25 {
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.section-padding-100-0 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.section-padding-0-100 {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+
+.section-padding-100-70 {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+/* :: spacing css */
+.space-10 {
+  height: 10px;
+}
+
+.space-20 {
+  height: 20px;
+}
+
+.space-30 {
+  height: 30px;
+}
+
+.space-40 {
+  height: 40px;
+}
+
+.space-50 {
+  height: 50px;
+}
+
+.space-60 {
+  height: 60px;
+}
+
+.space-70 {
+  height: 70px;
+}
+
+.space-80 {
+  height: 80px;
+}
+
+.space-90 {
+  height: 90px;
+}
+
+.space-100 {
+  height: 100px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.login-body {
+  background: #82c343;
+}
+
+.login-form, .login-form * {
+  box-sizing: border-box;
+}
+.login-form {
+  max-width: 350px;
+  margin: 50px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+.login-form-logo-container {
+  padding: 30px;
+  background: #80c340;
+}
+.login-form-logo {
+  display: block;
+  margin: 0 auto;
+}
+.login-form-content {
+  padding: 30px;
+  background: #f1f7f9;
+}
+.login-form-content label {
+  font-size: 0.9em;
+  margin-left: 20px;
+}
+.login-form-content input[type=checkbox] {
+  transform: translateY(2px);
+  margin-bottom: 20px;
+}
+.login-form-content input[type=text], .login-form-content input[type=password] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 2px solid #ddd;
+  background-color: #fff;
+  transition: border-color 0.3s;
+}
+.login-form-content input[type=text]:focus, .login-form-content input[type=password]:focus {
+  border-color: #80c340;
+}
+.login-form-content input[type=text]:focus .login-form-content input[type=text]::placeholder, .login-form-content input[type=text]:focus .login-form-content input[type=password]::placeholder, .login-form-content input[type=password]:focus .login-form-content input[type=text]::placeholder, .login-form-content input[type=password]:focus .login-form-content input[type=password]::placeholder {
+  color: black;
+}
+.login-form-content button {
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  background: #80c340;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.login-form-content button:hover {
+  background: #82c343;
+}
+.login-form-header {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+.login-form-links {
+  margin-top: 15px;
+  text-align: center;
+}
+.login-form-links a {
+  font-size: 0.9em;
+  color: #80c340;
+  font-weight: normal;
+}
+.login-form-links a:hover {
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+/* DASHBOARD STYLE */
+.ui.vertical.menu.sidebar-menu {
+  margin-top: 40px !important;
+  max-height: calc(100% - 40px) !important;
+  height: calc(100% - 40px) !important;
+  background-color: #82c343;
+}
+
+nav.ui.menu {
+  background-color: #82c343;
+}
+
+.main-content {
+  margin-top: 50px;
+}
+
+.note-full {
+  position: absolute;
+  padding: 3px;
+  border-radius: 50%;
+  background: red;
+  top: 13px;
+  right: 23px;
+}
+
+.dataTables_wrapper {
+  margin: 5px;
+}
+
+.submenu {
+  display: block;
+  margin-left: 10px;
+}
+.submenu-tab {
+  width: 100%;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  padding: 15px;
+}
+.submenu-header h1 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #303030;
+  text-align: center;
+}
+.submenu-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #d4d4d5;
+  text-align: right;
+}
+.submenu-list li:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.submenu-list li .ui.basic.button {
+  padding: 10px 10px;
+}
+.submenu-list-name {
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.create-dropdown-menu, .create-megamenu {
+  display: none;
+}
+
+.make-online {
+  display: inline-block;
+  min-width: 1.3em;
+  min-height: 1.3em;
+  border-radius: 50%;
+}
+
+.ui.grid.stackable.padded table td i {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ui.striped.table tbody .dataTable_feature:nth-child(2n), .ui.striped.table > .dataTable_feature:nth-child(2n) {
+  background-color: white;
+}
+.ui.striped.table tbody .dataTable_feature:nth-child(2n):hover, .ui.striped.table > .dataTable_feature:nth-child(2n):hover {
+  background: #82c343;
+}
+
+.dataTable_feature {
+  background: white;
+}
+.dataTable_feature:hover {
+  background: #82c343;
+}
+
+.ui.striped.table tbody .dataTable_new_feature:nth-child(2n), .ui.striped.table > .dataTable_new_feature:nth-child(2n) {
+  background-color: #e8f9d8;
+  font-weight: 500;
+}
+.ui.striped.table tbody .dataTable_new_feature:nth-child(2n):hover, .ui.striped.table > .dataTable_new_feature:nth-child(2n):hover {
+  background: #82c343;
+}
+
+.dataTable_new_feature {
+  background-color: #e8f9d8;
+  font-weight: 500;
+}
+.dataTable_new_feature:hover {
+  background: #82c343;
+}
+
+.card .meta {
+  margin-top: 0px;
+  margin-left: 15px;
+}
+.card .description {
+  margin: 20px 0;
+  margin-left: 15px;
+}
+
+@media only screen and (min-width:768px) {
+  .ui.vertical.menu.sidebar-menu {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+
+  .main-content {
+    margin-left: 15rem;
+  }
+
+  .sidebar-menu-toggler {
+    display: none !important;
+  }
+
+  .submenu {
+    display: flex;
+  }
+  .submenu-header h1 {
+    text-align: left;
+  }
+  .submenu-list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.flashMessage {
+  text-align: center;
+  font-size: 20px;
+}
+.flashMessage li {
+  color: red;
+}
+
+/*# sourceMappingURL=main_admin.css.map */
